@@ -17,7 +17,7 @@ class Router extends Component {
 
     // Functions
     const { openSnackbar } = this.props;
-    console.log('user Router ln28= ', user);
+
     return (
       <BrowserRouter basename={process.env.REACT_APP_BASENAME}>
         {bar}
